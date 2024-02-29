@@ -20,7 +20,11 @@
     }
 
     .tmpl_hh_table_content p {
-      margin: 0 0 30px;
+      margin: 0;
+    }
+
+    .tmpl_hh_table_content p:not(:last-child) {
+      margin: 0 0 20px;
     }
 
   </style>
@@ -76,7 +80,7 @@
             <table width="100%" cellpadding="0" cellspacing="0" border="0" border-spacing="0" style="border-collapse: collapse; max-width: 872px; min-width: 280px;">
               <tr>
 
-                <td style="padding:56px; font: normal 18px/26px 'Trebuchet MS'; color: #000 !important; min-height: 50px;">
+                <td style="padding:40px 56px 30px; font: normal 16px/24px 'Arial'; color: #141414 !important; min-height: 50px;">
                   <!-- Сюда вставляется текст письма -->
                   ${body}
                   <!-- Сюда вставляется текст письма -->
